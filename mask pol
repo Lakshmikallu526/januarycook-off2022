@@ -1,0 +1,6 @@
+t=int(input())
+for i in range(0,t):
+    n,a=input().split()
+    n,a=int(n),int(a)
+    k=n-a
+    print(min(a,k))
